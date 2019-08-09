@@ -11,10 +11,6 @@ def main(args):
     word_vectors_file = "word-vectors/paragram_300_sl999.txt"
     vectors_url = "https://www.dropbox.com/s/liverep9vmsm9wu/paragram_300_sl999.zip?dl=1"
 
-    # val_list_file = "data/multi-woz/valListFile.json"
-    # test_list_file = "data/multi-woz/testListFile.json"
-    # data_file = "data/multi-woz/data.json"
-
     val_list_file = os.path.join(args.data_path, "valListFile.json")
     test_list_file = os.path.join(args.data_path, "testListFile.json")
     data_file = os.path.join(args.data_path, "data.json")
